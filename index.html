@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solar do Sal | Restaurante</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fafafa;
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(135deg, #92400e, #d97706);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 140px;
+      margin-bottom: 20px;
+    }
+    nav {
+      background: #111827;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #e5e7eb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fbbf24;
+    }
+    section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #92400e;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery div {
+      background: #e5e7eb;
+      height: 180px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fbbf24;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Substituir pelo logótipo -->
+  <img src="logo.png" alt="Solar do Sal" />
+  <h1>Solar do Sal</h1>
+  <p>Restaurante | Salinas de Rio Maior</p>
+</header>
+
+<nav>
+  <a href="#historia">História</a>
+  <a href="#menu">Menu</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contactos">Contactos</a>
+</nav>
+
+<section id="historia">
+  <h2>A Nossa História</h2>
+  <div class="card">
+    <p>
+      O restaurante <strong>Solar do Sal</strong> está situado nas emblemáticas <strong>Salinas de Rio Maior</strong>,
+      um local único em Portugal. Aqui celebramos a tradição, a gastronomia portuguesa e os sabores autênticos
+      da região, num espaço onde a história e a natureza se encontram.
+    </p>
+    <p>
+      <!-- Aqui podes colocar a história completa do restaurante -->
+    </p>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menus</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Menu Principal</h3>
+      <p><!-- Inserir menu ou ligação para PDF --></p>
+    </div>
+    <div class="card">
+      <h3>Menu de Grupos</h3>
+      <p><!-- Inserir menu ou ligação para PDF --></p>
+    </div>
+    <div class="card">
+      <h3>Sobremesas & Vinhos</h3>
+      <p><!-- Inserir menu ou ligação para PDF --></p>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <h2>Galeria</h2>
+  <div class="gallery">
+    <div>Foto 1</div>
+    <div>Foto 2</div>
+    <div>Foto 3</div>
+    <div>Foto 4</div>
+  </div>
+</section>
+
+<section id="contactos">
+  <h2>Contactos & Localização</h2>
+  <div class="grid">
+    <div class="card">
+      <p><strong>Morada:</strong><br />
+      Salinas de Rio Maior<br />
+      Rio Maior, Portugal</p>
+
+      <p><strong>Telefone:</strong> +351 XXX XXX XXX<br />
+      <strong>Email:</strong> contacto@solardosal.pt</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Redes Sociais</strong></p>
+      <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Solar do Sal — Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
